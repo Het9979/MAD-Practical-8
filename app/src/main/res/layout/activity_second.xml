@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> <TableRow>
+    <ImageButton
+        android:id="@+id/IMG_BTN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cspit" />
+</TableRow>
+    <TableRow>
+        <ImageButton
+            android:id="@+id/IMG_BTN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cmpica" />
+    </TableRow>
+    <TableRow>
+        <ImageButton
+            android:id="@+id/IMG_BTN3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/depstar" />
+    </TableRow>
+        <TableRow>
+    <ImageButton
+        android:id="@+id/IMG_BTN4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/i2im" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/IMG_BTN5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pdpis" />
+        </TableRow>
+        <TableRow><ImageButton
+            android:id="@+id/IMG_BTN6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rpcp" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
